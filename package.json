@@ -1,0 +1,22 @@
+{
+  "name": "leaflet-indoor",
+  "version": "1.0.1",
+  "description": "Provides basic tools to create indoor maps with Leaflet.",
+  "main": "leaflet-indoor.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/va2ron1/leaflet-indoor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/va2ron1/leaflet-indoor/issues"
+  },
+  "homepage": "https://github.com/va2ron1/leaflet-indoor#readme"
+}
