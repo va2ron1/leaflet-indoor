@@ -6,6 +6,22 @@
  *
  * getLevels can be called to get the array of levels that are present.
  */
+
+var L, getJSON;
+
+if( typeof module !== 'undefined' && module.exports ) {
+    L = require('leaflet');
+    getJSON = require('get-json');
+
+    module.exports.layerFromData = function(data, options) {
+        return new L.Indoor(data, options);
+    };
+    module.exports.levelControl = function (options) {
+        return new L.Control.Level(options);
+    };
+    module.exports.getData = getJSON;
+}
+
 L.Indoor = L.Layer.extend({
 
     options: {
